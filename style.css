@@ -26,6 +26,11 @@
     object-fit: cover;
   }
 
+  #logo{
+    width: 120px;
+    margin-top: 20px;
+  }
+
   /* Header */
   header {
     display: flex;
@@ -36,6 +41,7 @@
   
   nav > a {
     text-decoration: none;
+    color: inherit;
     
   }
   
@@ -67,7 +73,7 @@
   
   /* Description */
   #description {
-    margin-top: 0;
+    margin-top: 30px;
   }
   
   #description > div {
@@ -257,6 +263,7 @@
     border: 5px solid white;
     border-radius: 20px;
     background-color: white;
+    
   }
   
   .hostingElem:hover {
@@ -270,10 +277,12 @@
   
   .hostingElem .elemText {
     padding-left: 10px;
+    
   }
   
   .hostingElem .elemNamePrice h3 {
     margin-bottom: 0;
+    
   }
   
   .hostingElem .elemNamePrice p {
@@ -454,7 +463,7 @@
     }
     
     #all_hosting {
-      width: 65%;
+      width: 68%;
       padding: 0 2%;
       background-color: var(--grey);
     }
@@ -696,12 +705,9 @@
   }
   
   /* Tablette */
-  @media screen and (max-width: 992px) and (min-width: 768px)  {
-    #logo {
-      height: 125px;
-    }
+  @media screen and (min-width: 768px) and (max-width: 991px)  {
    
-    #infos > div:nth-child(2) {
+    #description > div:nth-child(2) {
       width: 500px;
       display: flex;
     }
