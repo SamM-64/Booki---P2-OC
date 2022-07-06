@@ -766,11 +766,7 @@
   
   /* Portable */
   @media screen and (max-width: 768px) {
-    #logo {
-      height: 75px;
     
-    }
-  
     #filters > div:nth-child(2) {
       display: flex;
       justify-content: center;
