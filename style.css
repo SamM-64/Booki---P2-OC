@@ -696,6 +696,11 @@
   
   /* Tablette */
   @media screen and (min-width: 768px) and (max-width: 991px)  {
+    #description > div:nth-child(2) {
+      width: 500px;
+      display: flex;
+    }
+    
     #searchbar {
       width: 320px;
     }
