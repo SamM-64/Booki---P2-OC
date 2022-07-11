@@ -547,10 +547,6 @@
       padding: 0;
     }
   
-    #logo {
-      text-align: center;
-    }
-  
     nav {
       width: 100%;
       display: flex;
@@ -588,12 +584,6 @@
   
     #pageTitle p {
       margin: 0;
-    }
-  
-    #disponibilite > div:nth-child(2) {
-      margin-top: 10px;
-      margin-bottom: 20px;
-      align-self: center;
     }
   
     #searchform {
@@ -705,12 +695,6 @@
   
   /* Tablette */
   @media screen and (min-width: 768px) and (max-width: 991px)  {
-   
-    #description > div:nth-child(2) {
-      width: 500px;
-      display: flex;
-    }
-  
     #searchbar {
       width: 320px;
     }
@@ -738,10 +722,6 @@
       height: 5%;
     }
   
-    #all_hosting > div:nth-child(3) {
-      height: 5%;
-    }
-  
     #hostingList {
       display: flex;
       justify-content: space-between;
@@ -765,12 +745,6 @@
   
   /* Portable */
   @media screen and (max-width: 768px) {
-    
-    #filters > div:nth-child(2) {
-      display: flex;
-      justify-content: center;
-    }
-  
     #searchbutton {
       display: none;
     }
